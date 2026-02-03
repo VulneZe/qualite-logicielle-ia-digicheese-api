@@ -1,5 +1,8 @@
 name: Test Pipeline
 
+# Dernière mise à jour : 3 février 2026 - 12:38
+# Tests : 6 fichiers = ~45 tests (Item, Auth, User, Order, Conditionnement, Main)
+
 on:
   push:
     branches: [ master ]
