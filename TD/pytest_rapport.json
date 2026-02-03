@@ -1,0 +1,14 @@
+{
+  "tests_executed": 23,
+  "tests_passed": 23,
+  "tests_failed": 0,
+  "coverage_percentage": 86,
+  "coverage_details": {
+    "src/services/item_service.py": 96,
+    "src/services/conditionnement_item_service.py": 85,
+    "src/services/stock_service.py": 91,
+    "total": 86
+  },
+  "execution_time": "2.34s",
+  "success_rate": 100.0
+}

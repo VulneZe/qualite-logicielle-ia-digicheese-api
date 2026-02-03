@@ -1,0 +1,24 @@
+{
+  "global_score": 6.22,
+  "total_violations": 287,
+  "violations_by_type": {
+    "R0401": 20,
+    "R0801": 5,
+    "C0114": 15,
+    "C0115": 25,
+    "C0116": 10,
+    "W0622": 4,
+    "E712": 2,
+    "F841": 3
+  },
+  "critical_issues": [
+    "imports_cycliques",
+    "code_duplique"
+  ],
+  "medium_issues": [
+    "docstrings_manquants"
+  ],
+  "low_issues": [
+    "variables_non_utilisees"
+  ]
+}

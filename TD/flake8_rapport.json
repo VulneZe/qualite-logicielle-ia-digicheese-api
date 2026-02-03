@@ -1,0 +1,12 @@
+{
+  "total_violations": 267,
+  "violations_by_type": {
+    "E501": 120,
+    "W293": 50,
+    "E302": 15,
+    "E712": 2,
+    "F841": 3
+  },
+  "most_common": "E501 - Lignes trop longues (>79 caract\u00e8res)",
+  "files_affected": 45
+}

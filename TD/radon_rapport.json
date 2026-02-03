@@ -1,0 +1,18 @@
+{
+  "blocks_analyzed": 422,
+  "average_complexity": 1.8,
+  "complexity_grade": "A",
+  "complex_functions": {
+    "C": [
+      "jwt_validation_middleware"
+    ],
+    "B": [
+      "get_current_user",
+      "Auth.refresh_token",
+      "ClientService.create_client",
+      "ClientService.update_client",
+      "UserService.update_user"
+    ]
+  },
+  "simple_functions": 416
+}

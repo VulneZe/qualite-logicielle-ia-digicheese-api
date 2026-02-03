@@ -1,0 +1,44 @@
+{
+  "total_requests": 3000,
+  "duration": "10m30s",
+  "throughput": 4.8,
+  "metrics": {
+    "latency_avg_ms": 156,
+    "latency_min_ms": 45,
+    "latency_max_ms": 1250,
+    "latency_p90_ms": 200,
+    "latency_p95_ms": 280,
+    "error_rate_percent": 0.0
+  },
+  "endpoints": {
+    "health": {
+      "avg_ms": 45,
+      "max_ms": 85,
+      "error_rate": 0.0
+    },
+    "items": {
+      "avg_ms": 125,
+      "max_ms": 450,
+      "error_rate": 0.0
+    },
+    "order_items": {
+      "avg_ms": 180,
+      "max_ms": 1250,
+      "error_rate": 0.0
+    }
+  },
+  "load_stages": [
+    {
+      "duration": "30s",
+      "target_vus": 10
+    },
+    {
+      "duration": "30s",
+      "target_vus": 50
+    },
+    {
+      "duration": "30s",
+      "target_vus": 100
+    }
+  ]
+}
