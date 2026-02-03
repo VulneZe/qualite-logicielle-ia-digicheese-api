@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  digicheese-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
+    environment:
+      - DATABASE_URL=sqlite:///./digicheese.db
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload

@@ -1,0 +1,8 @@
+from .user_repository import UserRepository
+from .role_repository import RoleRepository
+from .department_repository import DepartmentRepository
+from .zip_code_repository import ZipCodeRepository
+from .commune_repository import CommuneRepository
+from.client_repository import ClientRepository
+from .commande_repository import CommandeRepository
+from .address_repository import AddressRepository

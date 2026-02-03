@@ -1,0 +1,2 @@
+class UniqueEntityException(Exception):
+    pass
